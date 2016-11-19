@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+  - 2.1.5
+script: bundle exec middleman build --verbose
+deploy:
+  provider: divshot
+  api_key:
+    secure: YOUR_SECURE_API_KEY
+  environment: 
+    master: production
+  on:
+    repo: YOUR_REPO
+    skip_cleanup: true
