@@ -65,6 +65,8 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+  
+  set :site_url, "/herts-for-refugees"
 end
 
 activate :deploy do |deploy|
