@@ -1,5 +1,6 @@
 prose:
   rooturl: 'source'
+  siteurl: 'https://timpaul.github.io/herts-for-refugees/'
   media: 'source/media'
   ignore:
     - index.md
