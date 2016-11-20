@@ -11,6 +11,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem "middleman", "~> 4.1"
 gem "middleman-blog"
+gem 'middleman-deploy', '~> 1.0'
 
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 

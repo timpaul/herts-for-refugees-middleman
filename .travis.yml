@@ -1,13 +1,15 @@
 language: ruby
+cache: bundler
 rvm:
-  - 2.1.5
-script: bundle exec middleman build --verbose
-deploy:
-  provider: divshot
-  api_key:
-    secure: YOUR_SECURE_API_KEY
-  environment: 
-    master: production
-  on:
-    repo: YOUR_REPO
-    skip_cleanup: true
+- 2.2
+branches:
+  only:
+  - master # branch to build
+env:
+  global:
+  - GH_COMMIT_AUTHOR="Tim Paul"
+  - GH_COMMIT_EMAIL=contact@timpaul.co.uk
+script:
+- bundle exec rake travis:script
+after_success:
+- bundle exec rake travis:after_success
