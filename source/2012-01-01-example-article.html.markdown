@@ -9,7 +9,7 @@ So you can write your blog posts here and then they will appear on Middleman? Wh
 
 [Lets have a go](https://github.com/timpaul/herts-for-refugees/tree/master/source)!
 
-![tintin.png]({{site.baseurl}}/source/media/tintin.png)
+![Tin Tin](herts-for-refugees/media/tintin.png)
 
 ![Untitled.png]({{site.baseurl}}/source/media/Untitled.png)
 
