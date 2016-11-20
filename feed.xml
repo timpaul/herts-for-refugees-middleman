@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2016-11-19T00:00:00+00:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Second example article</title>
+    <link rel="alternate" href="http://blog.url.com/2016/11/19/second-example.html"/>
+    <id>http://blog.url.com/2016/11/19/second-example.html</id>
+    <published>2016-11-19T00:00:00+00:00</published>
+    <updated>2016-11-20T13:16:23+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Another blog post</title>
+    <link rel="alternate" href="http://blog.url.com/2012/01/01/example-article.html"/>
+    <id>http://blog.url.com/2012/01/01/example-article.html</id>
+    <published>2012-01-01T00:00:00+00:00</published>
+    <updated>2016-11-20T13:16:23+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;So you can write your blog posts here and then they will appear on Middleman? What about links and images?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/timpaul/herts-for-refugees/tree/master/source"&gt;Lets have a go&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/herts-for-refugees/media/tintin.png" alt="Tin Tin" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/%7B%7Bsite.baseurl%7D%7D/source/media/Untitled.png" alt="Untitled.png" /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+</feed>
